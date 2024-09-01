@@ -5,10 +5,10 @@ Supplies async generator
 
 import asyncio
 import random
-from typing import AsyncGenerator
+from typing import Generator
 
 
-async def async_generator() -> AsyncGenerator[float, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     yield a random number
     """
